@@ -1,0 +1,48 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent !important;
+}
+
+.searchBar{
+    
+
+    padding: 1em 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    border-radius:.3em;
+}
+
+#search{
+
+    color:inherit;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.filter{
+    width: 150px;
+    position: relative;
+    padding: 1em;
+    border-radius: .3em;
+
+}
+.filterLabel{
+    font-size: .8em;
+    background: inherit;
+    position: absolute;
+    left:15px;
+}
+
+#region{
+    background:transparent;
+    border: none;
+    float: right;
+  
+}
+
